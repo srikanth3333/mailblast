@@ -29,7 +29,7 @@ function HomeCard({title,countArray,divisionList,monthList,apiObject,api,data}) 
                     {
                         data?.loading ?
                             [1,2,3,4].map((list,index) => (
-                                <div className="col-lg-6 mt-3">
+                                <div className="col-lg-6 mt-3" key={index}>
                                     <Skeleton active 
                                         paragraph={{
                                             rows: 1,

@@ -5,7 +5,7 @@ import CountCard from '@/components/CountCard';
 import TableData from '@/components/TableData';
 import FilterCard from '@/components/FilterCard';
 
-function index() {
+function Index() {
 
     let data =  useSelector(state => state.reports)
     let dispatch = useDispatch()
@@ -73,4 +73,4 @@ function index() {
   )
 }
 
-export default index;
+export default Index;

@@ -16,7 +16,7 @@ const layout = {
 };
 
 
-function index() {
+function Index() {
 
   const [role, setRole] = React.useState('')
   const [email, setEmail] = React.useState('')
@@ -146,4 +146,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

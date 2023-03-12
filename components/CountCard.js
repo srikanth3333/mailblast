@@ -27,7 +27,7 @@ function CountCard({data,loading}) {
             {
                 loading ?
                     data.map((list,index) => (
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" key={index}>
                             <div className="card">
                                 <div className="card-body">
                                     <Skeleton active 

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import {useSelector} from 'react-redux'
 
-function index() {
+function Index() {
 
   let user = useSelector(state => state.auth)
 
@@ -15,4 +15,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

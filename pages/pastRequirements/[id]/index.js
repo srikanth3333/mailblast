@@ -3,7 +3,7 @@ import React from 'react'
 import { useRouter } from 'next/router'
 
 
-function index() {
+function Index() {
 
     const router = useRouter()
     let id = router.query.id
@@ -47,4 +47,4 @@ function index() {
   )
 }
 
-export default index
+export default Index

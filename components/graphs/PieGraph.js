@@ -31,8 +31,8 @@ const PieGraph = ({data,link,items}) => {
     return (
       <div className="row">
         {
-                items.map((item) => (
-                    <div className="col-lg-12">
+                items.map((item,index) => (
+                    <div className="col-lg-12" key={index}>
                         <h5><b>{item.title}</b></h5>
                             <PieChart
                               id="pie"

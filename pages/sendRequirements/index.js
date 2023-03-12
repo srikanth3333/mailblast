@@ -30,7 +30,7 @@ const validateMessages = {
 };
 /* eslint-enable no-template-curly-in-string */
 
-const index = () => {
+const Index = () => {
 
 
     const [show, setShow] = useState(false);
@@ -257,4 +257,4 @@ const index = () => {
       </Modal>
     </>
 )};
-export default index;
+export default Index;
